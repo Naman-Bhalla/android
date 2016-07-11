@@ -3,7 +3,9 @@ Downloading the Source
 1. Repo sync all code with default.xml  
 `repo init -u git://github.com/OnePlusOSS/android.git -b oneplus3/6.0.1`  
 `repo sync`  
-2. Clone vendor/oneplus from my Github  
+2. Remove vendor/oneplus from your build environment.  
+`rm -rf vendor/oneplus` 
+3. Clone vendor/oneplus from my Github  
 `git clone -b oneplus3-oos321 https://github.com/Naman-Bhalla/vendor_oneplus.git vendor/oneplus` 
 
 Building the System  
